@@ -15,7 +15,7 @@ export default function Contact() {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="contact-items">
-                  <h3 className="wow fadeInUp text-white" data-wow-delay=".2s">
+                  <h3 className="wow fadeInUp" data-wow-delay=".2s" style={{ color: '#FF0000' }}>
                     Pieprasīt Cenu
                   </h3>
                   <form
