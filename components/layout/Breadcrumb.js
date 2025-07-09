@@ -14,13 +14,13 @@ export default function Breadcrumb({ breadcrumbTitle }) {
           <div className="breadcrumb-wrapper-items">
             <div className="page-heading">
               <div className="breadcrumb-sub-title">
-                <h1 className="wow fadeInUp" data-wow-delay=".3s">
+                <h1 className="wow fadeInUp" data-wow-delay=".15s">
                   {breadcrumbTitle}
                 </h1>
               </div>
               <ul
                 className="breadcrumb-items wow fadeInUp"
-                data-wow-delay=".5s"
+                data-wow-delay=".2s"
               >
                 <li>
                   <Link href="/">Sākums</Link>

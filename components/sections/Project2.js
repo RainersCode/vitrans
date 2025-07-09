@@ -49,7 +49,7 @@ export default function Project2() {
 								Transporta galerija
 								<i className="fa-regular fa-arrow-right-long" />
 							</h6>
-							<h2 className="wow fadeInUp" data-wow-delay=".2s">
+							<h2 className="wow fadeInUp" data-wow-delay=".1s">
 								Nesenie pārvadājumi
 							</h2>
 						</div>

@@ -45,18 +45,18 @@ export default function About2() {
 											Par mani
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
-										<h2 className="wow fadeInUp" data-wow-delay=".2s">
+										<h2 className="wow fadeInUp" data-wow-delay=".1s">
 											Neatkarīgs pārvadātājs, <br /> Gatis Lovkins
 										</h2>
 									</div>
-									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".2s">
 										Es esmu neatkarīgs pārvadātājs. Mans mērķis ir nodrošināt 
 										draudzīgu, elastīgu pakalpojumu, kas pielāgots jūsu vajadzībām. Neatkarīgi no tā, 
 										vai jums nepieciešams pārvietot būvmateriālus, iekārtas vai citus smagus priekšmetus, 
 										es varu palīdzēt.
 									</p>
 									<div className="row g-4 mt-3">
-										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".1s">
 											<div className="icon-items">
 												<div className="icon">
 													<i className="fas fa-truck" />
@@ -64,7 +64,7 @@ export default function About2() {
 												<h5>Manipulatora transports</h5>
 											</div>
 										</div>
-										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+										<div className="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
 											<div className="icon-items">
 												<div className="icon">
 													<i className="fas fa-handshake" />
@@ -73,7 +73,7 @@ export default function About2() {
 											</div>
 										</div>
 									</div>
-									<ul className="list-items wow fadeInUp" data-wow-delay=".2s">
+									<ul className="list-items wow fadeInUp" data-wow-delay=".1s">
 										<li>
 											<i className="fa-solid fa-circle-check" />
 											Tieša komunikācija—bez starpniekiem

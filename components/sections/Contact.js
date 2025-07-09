@@ -27,7 +27,7 @@ export default function Contact() {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="contact-items">
-                  <h3 className="wow fadeInUp" data-wow-delay=".2s" style={{ color: '#FF0000' }}>
+                  <h3 className="wow fadeInUp" data-wow-delay=".1s" style={{ color: '#FF0000' }}>
                     Pieprasīt Cenu
                   </h3>
                   <form
@@ -39,7 +39,7 @@ export default function Contact() {
                     <div className="row g-4">
                       <div
                         className="col-lg-6 col-md-6 wow fadeInUp"
-                        data-wow-delay=".2s"
+                        data-wow-delay=".1s"
                       >
                         <div className="form-clt">
                           <input
@@ -52,7 +52,7 @@ export default function Contact() {
                       </div>
                       <div
                         className="col-lg-6 col-md-6 wow fadeInUp"
-                        data-wow-delay=".4s"
+                        data-wow-delay=".2s"
                       >
                         <div className="form-clt">
                           <input
@@ -65,7 +65,7 @@ export default function Contact() {
                       </div>
                       <div
                         className="col-lg-12 col-md-12 wow fadeInUp"
-                        data-wow-delay=".2s"
+                        data-wow-delay=".1s"
                       >
                         <div className="form-clt">
                           <input
@@ -78,7 +78,7 @@ export default function Contact() {
                       </div>
                       <div
                         className="col-lg-12 wow fadeInUp"
-                        data-wow-delay=".2s"
+                        data-wow-delay=".1s"
                       >
                         <div className="form-clt">
                           <textarea
@@ -91,7 +91,7 @@ export default function Contact() {
                       </div>
                       <div
                         className="col-lg-7 wow fadeInUp"
-                        data-wow-delay=".4s"
+                        data-wow-delay=".2s"
                       >
                         <button type="submit" className="theme-btn">
                           Pieprasīt Cenu <i className="fa-regular fa-arrow-right" />
@@ -111,20 +111,20 @@ export default function Contact() {
                     </h6>
                     <h2
                       className="text-white wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".15s"
                     >
                       Tieša Komunikācija, Ātra Atbilde
                     </h2>
                   </div>
                   <p
                     className="text-white mt-3 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".5s"
+                    data-wow-delay=".2s"
                   >
                     Kā neatkarīgs pārvadātājs, es nodrošinu individuālu pieeju katram klientam. 
                     Sazinieties ar mani tieši par kravu pārvadājumiem Vidzemes reģionā. 
                     Pieejams būvmateriālu, iekārtu un smagu priekšmetu pārvadāšanai ar manipulatoru.
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".3s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".15s">
                     <div className="icon" style={{ background: '#ffffff', width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <i className="fa-light fa-phone-volume" style={{ color: '#E84E4E', fontSize: '28px' }} />
                     </div>
@@ -135,7 +135,7 @@ export default function Contact() {
                       </h4>
                     </div>
                   </div>
-                  <div className="icon-items mt-4 wow fadeInUp" data-wow-delay=".3s">
+                  <div className="icon-items mt-4 wow fadeInUp" data-wow-delay=".15s">
                     <div className="icon" style={{ background: '#ffffff', width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                       <i className="fa-light fa-location-dot" style={{ color: '#E84E4E', fontSize: '28px' }} />
                     </div>

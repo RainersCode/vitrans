@@ -28,15 +28,15 @@ export default function Faq() {
                       BUJ
                       <i className="fa-regular fa-arrow-right-long" />
                     </h6>
-                    <h2 className="wow fadeInUp" data-wow-delay=".2s">
+                    <h2 className="wow fadeInUp" data-wow-delay=".1s">
                       Biežāk uzdotie <br /> jautājumi
                     </h2>
                   </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".2s">
                     Šeit atradīsiet atbildes uz biežāk uzdotajiem jautājumiem par maniem pakalpojumiem. 
                     Ja neatrodat vajadzīgo informāciju, droši sazinieties ar mani.
                   </p>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".2s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".1s">
                     <div className="icon">
                       <i className="fa-regular fa-check" />
                     </div>
@@ -47,7 +47,7 @@ export default function Faq() {
                       </span>
                     </div>
                   </div>
-                  <div className="icon-items wow fadeInUp" data-wow-delay=".4s">
+                  <div className="icon-items wow fadeInUp" data-wow-delay=".2s">
                     <div className="icon">
                       <i className="fa-regular fa-check" />
                     </div>
@@ -103,7 +103,7 @@ export default function Faq() {
 
                     <div
                       className="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".3s"
+                      data-wow-delay=".15s"
                     >
                       <h5 className="accordion-header">
                         <button
@@ -140,7 +140,7 @@ export default function Faq() {
 
                     <div
                       className="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".5s"
+                      data-wow-delay=".2s"
                     >
                       <h5 className="accordion-header">
                         <button
@@ -178,7 +178,7 @@ export default function Faq() {
 
                     <div
                       className="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".6s"
+                      data-wow-delay=".25s"
                     >
                       <h5 className="accordion-header">
                         <button
@@ -216,7 +216,7 @@ export default function Faq() {
 
                     <div
                       className="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".7s"
+                      data-wow-delay=".3s"
                     >
                       <h5 className="accordion-header">
                         <button

@@ -76,12 +76,12 @@ export default function Hero1() {
 								<div className="vector-shape-2">
 									<img src="assets/img/hero/vector-2.png" alt="img" />
 								</div>
-								<h1 className="wow fadeInUp" data-wow-delay=".3s">
+								<h1 className="wow fadeInUp" data-wow-delay=".15s">
 									Create the <br />
 									building you <br />
 									want here
 								</h1>
-								<p className="wow fadeInUp" data-wow-delay=".5s">
+								<p className="wow fadeInUp" data-wow-delay=".2s">
 									Proactively pontificate client-centered relationships visavis
 									process centric leadership skills. Credibly.
 								</p>
@@ -89,14 +89,14 @@ export default function Hero1() {
 									<Link
 										href="about"
 										className="theme-btn bg-white wow fadeInUp"
-										data-wow-delay=".3s"
+										data-wow-delay=".15s"
 									>
 										Explore More
 										<i className="fa-regular fa-arrow-right" />
 									</Link>
 									<span
 										className="button-text wow fadeInUp"
-										data-wow-delay=".5s"
+										data-wow-delay=".2s"
 									>
 										<a
 											onClick={() => setOpen(true)}

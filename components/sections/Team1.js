@@ -14,7 +14,7 @@ export default function Team1() {
 							our team
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
-						<h2 className="wow fadeInUp" data-wow-delay=".2s">
+						<h2 className="wow fadeInUp" data-wow-delay=".1s">
 							Our expert team <br /> members
 						</h2>
 					</div>
@@ -50,7 +50,7 @@ export default function Team1() {
 
 						<div
 							className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay=".2s"
+							data-wow-delay=".1s"
 						>
 							<div className="team-card-items">
 								<div className="team-image">
@@ -82,7 +82,7 @@ export default function Team1() {
 
 						<div
 							className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay=".4s"
+							data-wow-delay=".2s"
 						>
 							<div className="team-card-items">
 								<div className="team-image">
@@ -114,7 +114,7 @@ export default function Team1() {
 
 						<div
 							className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-							data-wow-delay=".6s"
+							data-wow-delay=".3s"
 						>
 							<div className="team-card-items">
 								<div className="team-image">

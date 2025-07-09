@@ -15,7 +15,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(1)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".2s"
+						data-wow-delay=".1s"
 					>
 						<div
 							className={
@@ -56,7 +56,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(2)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".4s"
+						data-wow-delay=".2s"
 					>
 						<div
 							className={
@@ -97,7 +97,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(3)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".6s"
+						data-wow-delay=".3s"
 					>
 						<div
 							className={
@@ -138,7 +138,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(4)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".2s"
+						data-wow-delay=".1s"
 					>
 						<div
 							className={
@@ -179,7 +179,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(5)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".4s"
+						data-wow-delay=".2s"
 					>
 						<div
 							className={
@@ -220,7 +220,7 @@ export default function NewsSection() {
 					<div
 						onClick={() => handleIndex(6)}
 						className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-						data-wow-delay=".6s"
+						data-wow-delay=".3s"
 					>
 						<div
 							className={
