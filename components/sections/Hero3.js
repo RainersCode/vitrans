@@ -10,9 +10,9 @@ export default function Hero3() {
 					style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")' }}
 							></div>
 							<div className="container">
-								<div className="row g-4 align-items-center">
+								<div className="row g-4">
 									<div className="col-lg-8">
-										<div className="hero-content">
+										<div className="hero-content text-start">
 											<h5
 												data-animation="slideInRight"
 												data-duration="2s"
@@ -38,17 +38,7 @@ export default function Hero3() {
 									privātpersonām un maziem uzņēmumiem.
 											</p>
 											<div className="hero-button">
-												<Link
-										href="/about"
-													data-animation="slideInRight"
-													data-duration="2s"
-													data-delay=".9s"
-													className="theme-btn hover-white"
-												>
-										Uzzināt vairāk par mani
-													<i className="fa-solid fa-arrow-right-long" />
-												</Link>
-									<Link href="#contact" className="theme-btn">
+												<Link href="#contact" className="theme-btn">
 										Pieprasīt cenu
 										<i className="fa-regular fa-arrow-right" />
 												</Link>
