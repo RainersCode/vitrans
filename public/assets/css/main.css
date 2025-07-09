@@ -1147,7 +1147,7 @@ span {
   .cta-banner-wrapper-2 {
     flex-wrap: wrap;
     gap: 30px;
-    padding-top: 60px;
+    padding-top: 20px;
     justify-content: center;
     text-align: center;
   }

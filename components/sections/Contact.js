@@ -5,12 +5,24 @@ export default function Contact() {
     <>
       <section
         className="contact-section fix section-padding" id="contact"
-        style={{ background: '#E84E4E' }}
+        style={{ 
+          backgroundImage: 'url("/assets/img/service/service-bg.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          position: 'relative'
+        }}
       >
-        <div className="contact-image float-bob-x">
-          <img src="assets/img/contact-img-shape.png" alt="forma" />
-        </div>
-        <div className="container">
+        <div style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: 'rgba(232, 78, 78, 0.85)',
+          zIndex: 1
+        }}></div>
+        <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="contact-wrapper">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
@@ -119,7 +131,7 @@ export default function Contact() {
                     <div className="content">
                       <span className="text-white">Zvaniet Tieši</span>
                       <h4>
-                        <Link href="tel:+37126858674" className="text-white">+371 2685 8674</Link>
+                        <Link href="tel:+37129288247" className="text-white">+371 29 288 247</Link>
                       </h4>
                     </div>
                   </div>
@@ -128,8 +140,8 @@ export default function Contact() {
                       <i className="fa-light fa-location-dot" style={{ color: '#E84E4E', fontSize: '28px' }} />
                     </div>
                     <div className="content">
-                      <span className="text-white">Apkalpojamā Teritorija</span>
-                      <h4 className="text-white">Vidzemes reģions, Latvija</h4>
+                      <span className="text-white">Adrese</span>
+                      <h4 className="text-white">Valmieras novads, Jērcēnu pagasts "Ausmas"</h4>
                     </div>
                   </div>
                 </div>

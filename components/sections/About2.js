@@ -26,7 +26,11 @@ export default function About2() {
 										className="about-image-2 wow fadeInUp"
 										data-wow-delay=".2s"
 									>
-										<img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=400&q=80" alt="Transporta aprīkojums" />
+										<img 
+											src="/assets/img/about/bottom_about.jpg" 
+											alt="Transporta aprīkojums" 
+											style={{ width: '500px', height: '400px', objectFit: 'cover' }}
+										/>
 									</div>
 									<div className="bar-shape">
 										<img src="assets/img/about/bar.png" alt="img" />

@@ -8,13 +8,12 @@ export default function Search({ isSearch, handleSearch }) {
 					<div className="search-cell">
 						<form method="get">
 							<div className="search-field-holder">
-								<input type="search" className="main-search-input" placeholder="Search..." />
+								<input type="search" className="main-search-input" placeholder="Meklēt..." />
 							</div>
 						</form>
 					</div>
 				</div>
 			</div>
-
 		</>
 	)
 }

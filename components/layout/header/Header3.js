@@ -18,7 +18,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isOffC
 								</li>
 								<li>
 									<i className="fa-solid fa-phone-volume" />
-									<Link href="tel:+37120000000">+371 2000 0000</Link>
+									<Link href="tel:+37129288247">+371 29 288 247</Link>
 								</li>
 							</ul>
 							<div className="top-right">

@@ -60,10 +60,14 @@ export default function Project2() {
 						<Swiper {...swiperOptions} className="swiper-wrapper">
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
-									<img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Būvmateriālu pārvadāšana" />
+									<img 
+										src="/assets/img/service/offer/manipulatora_pakalpojumi.jpg" 
+										alt="Manipulatora pakalpojumi" 
+										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
-											<h3 style={{ color: '#fff' }}>Būvmateriālu pārvadāšana</h3>
+											<h3 style={{ color: '#fff' }}>Manipulatora pakalpojumi</h3>
 											<span style={{ color: '#fff' }}>
 												<i className="fa-sharp fa-solid fa-location-dot" /> Vidzemes reģions
 											</span>
@@ -74,10 +78,14 @@ export default function Project2() {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
-									<img src="https://images.unsplash.com/photo-1616432043562-3671ea2e5242?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Manipulatora pakalpojumi" />
+									<img 
+										src="/assets/img/service/offer/celtniecibasmaterialu_piegade.jpg" 
+										alt="Celtniecības materiālu piegāde" 
+										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
-											<h3 style={{ color: '#fff' }}>Manipulatora pakalpojumi</h3>
+											<h3 style={{ color: '#fff' }}>Celtniecības materiālu piegāde</h3>
 											<span style={{ color: '#fff' }}>
 												<i className="fa-sharp fa-solid fa-location-dot" /> Vidzemes reģions
 											</span>
@@ -88,10 +96,14 @@ export default function Project2() {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
-									<img src="https://images.unsplash.com/photo-1517490232338-06b912a786b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Iekārtu pārvietošana" />
+									<img 
+										src="/assets/img/service/offer/kokmaterialu_piegade.jpg" 
+										alt="Kokmateriālu piegāde" 
+										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
-											<h3 style={{ color: '#fff' }}>Iekārtu pārvietošana</h3>
+											<h3 style={{ color: '#fff' }}>Kokmateriālu piegāde</h3>
 											<span style={{ color: '#fff' }}>
 												<i className="fa-sharp fa-solid fa-location-dot" /> Vidzemes reģions
 											</span>
@@ -102,10 +114,14 @@ export default function Project2() {
 							</SwiperSlide>
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
-									<img src="https://images.unsplash.com/photo-1627634777217-c864268db30c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Celtniecības materiālu piegāde" />
+									<img 
+										src="/assets/img/service/offer/iekartu_parvesana.jpg" 
+										alt="Iekārtu pārvešana" 
+										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
-											<h3 style={{ color: '#fff' }}>Celtniecības materiālu piegāde</h3>
+											<h3 style={{ color: '#fff' }}>Iekārtu pārvešana</h3>
 											<span style={{ color: '#fff' }}>
 												<i className="fa-sharp fa-solid fa-location-dot" /> Vidzemes reģions
 											</span>
@@ -114,22 +130,7 @@ export default function Project2() {
 									</div>
 								</div>
 							</SwiperSlide>
-							<SwiperSlide className="swiper-slide">
-								<div className="project-thumb">
-									<img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=800&q=80" alt="Konteineru pārvadāšana" />
-									<div className="project-content">
-										<div className="content" style={{ color: '#fff' }}>
-											<h3 style={{ color: '#fff' }}>Konteineru pārvadāšana</h3>
-											<span style={{ color: '#fff' }}>
-												<i className="fa-sharp fa-solid fa-location-dot" /> Vidzemes reģions
-											</span>
-										</div>
-										<h2 className="number" style={{ color: '#fff' }}>05</h2>
-									</div>
-								</div>
-							</SwiperSlide>
 						</Swiper>
-						<div className="project-dot" />
 					</div>
 				</div>
 			</section>

@@ -3,7 +3,16 @@ import Link from "next/link";
 export default function CtaBanner2() {
   return (
     <>
-      <section className="cta-section-2 bg-cover fix">
+      <section 
+        className="cta-section-2 bg-cover fix" 
+        style={{
+          backgroundImage: 'url("/assets/img/cta_background.jpg")',
+          backgroundAttachment: 'fixed',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}
+      >
         <div className="cta-overlay"></div>
         <div className="container">
           <div className="cta-banner-wrapper-2">

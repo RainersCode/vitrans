@@ -11,7 +11,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isOffC
 						<ul className="contact-list">
 							<li>
 								<i className="fa-regular fa-phone" />
-								<Link href="tel:+37120000000">+371 2000 0000</Link>
+								<Link href="tel:+37129288247">+371 29 288 247</Link>
 							</li>
 							<li>
 								<i className="fa-sharp fa-solid fa-location-dot" />

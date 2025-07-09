@@ -38,7 +38,7 @@ export default function Footer2() {
               <div className="content">
                 <p>Pieprasīt cenu</p>
                 <h3>
-                  <Link href="tel:+37126858674">+371 2685 8674</Link>
+                  <Link href="tel:+37129288246">+371 29 288 246</Link>
                 </h3>
               </div>
             </div>

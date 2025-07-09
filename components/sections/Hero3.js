@@ -7,7 +7,7 @@ export default function Hero3() {
 			<section className="hero-section fix hero-2">
 							<div
 								className="slider-image bg-cover"
-					style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80")' }}
+					style={{ backgroundImage: 'url("/assets/img/hero/hero-image.jpg")' }}
 							></div>
 							<div className="container">
 								<div className="row g-4">

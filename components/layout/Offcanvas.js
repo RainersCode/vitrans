@@ -63,7 +63,7 @@ export default function Offcanvas({ isOffCanvas, handleOffCanvas }) {
 											<i className="far fa-phone" />
 										</div>
 										<div className="offcanvas__contact-text">
-											<Link href="tel:+37126858674">+371 2685 8674</Link>
+											<Link href="tel:+37129288247">+371 29 288 247</Link>
 										</div>
 									</li>
 								</ul>
