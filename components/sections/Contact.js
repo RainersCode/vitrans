@@ -1,8 +1,28 @@
+'use client'
 import Link from "next/link";
 
 export default function Contact() {
   return (
     <>
+      <style jsx global>{`
+        .form-clt input, .form-clt textarea {
+          background-color: rgba(200, 200, 200, 0.1) !important;
+          border: 1px solid rgba(232, 78, 78, 0.3) !important;
+          color: rgba(0, 0, 0, 0.9) !important;
+        }
+        .form-clt input::placeholder, .form-clt textarea::placeholder {
+          color: rgba(0, 0, 0, 0.6) !important;
+          opacity: 1 !important;
+        }
+        .form-clt input:focus, .form-clt textarea:focus {
+          background-color: rgba(210, 210, 210, 0.15) !important;
+          border-color: rgba(232, 78, 78, 0.5) !important;
+          outline: none !important;
+        }
+        .contact-items h3 {
+          color: rgba(0, 0, 0, 0.8) !important;
+        }
+      `}</style>
       <section
         className="contact-section fix section-padding" id="contact"
         style={{ 
@@ -19,7 +39,7 @@ export default function Contact() {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: 'rgba(232, 78, 78, 0.85)',
+          backgroundColor: 'rgba(232, 78, 78, 0.65)',
           zIndex: 1
         }}></div>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
@@ -27,7 +47,7 @@ export default function Contact() {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="contact-items">
-                  <h3 className="wow fadeInUp" data-wow-delay=".1s" style={{ color: '#FF0000' }}>
+                  <h3 className="wow fadeInUp" data-wow-delay=".1s">
                     Pieprasīt Cenu
                   </h3>
                   <form

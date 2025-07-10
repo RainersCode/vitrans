@@ -40,6 +40,13 @@ const swiperOptions = {
 export default function Project2() {
 	return (
 		<>
+			<style jsx global>{`
+				@media (max-width: 576px) {
+					.project-thumb img {
+						height: 300px !important;
+					}
+				}
+			`}</style>
 			<section className="project-section section-padding fix" id="projects">
 				<div className="container">
 					<div className="section-title-area">

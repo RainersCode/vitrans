@@ -61,9 +61,6 @@ export default function Pricing() {
             data-wow-delay=".4s"
           >
             <div className="pricing-card-items box-shadow active">
-              <div className="tag-img">
-                <img src="assets/img/tag.png" alt="img" />
-              </div>
               <div className="pricing-shape">
                 <img src="assets/img/pricing-shape.png" alt="img" />
               </div>
