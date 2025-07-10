@@ -16,7 +16,7 @@ export default function Service2() {
 							<i className="fa-regular fa-arrow-right-long" />
 						</h6>
 						<h2 className="text-white wow fadeInUp" data-wow-delay=".2s">
-							Ko es piedāvāju jūsu <br /> transporta vajadzībām
+						Profesionāli transporta risinājumi
 						</h2>
 					</div>
 					<div className="row g-4 mt-5">

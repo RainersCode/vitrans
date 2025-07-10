@@ -125,7 +125,15 @@ export default function Contact() {
                     Pieejams būvmateriālu, iekārtu un smagu priekšmetu pārvadāšanai ar manipulatoru.
                   </p>
                   <div className="icon-items wow fadeInUp" data-wow-delay=".15s">
-                    <div className="icon" style={{ background: '#ffffff', width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <div className="icon" style={{ 
+                      background: '#ffffff', 
+                      aspectRatio: '1/1',
+                      width: '70px',
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center',
+                      borderRadius: '50%'
+                    }}>
                       <i className="fa-light fa-phone-volume" style={{ color: '#E84E4E', fontSize: '28px' }} />
                     </div>
                     <div className="content">
@@ -136,7 +144,15 @@ export default function Contact() {
                     </div>
                   </div>
                   <div className="icon-items mt-4 wow fadeInUp" data-wow-delay=".15s">
-                    <div className="icon" style={{ background: '#ffffff', width: '70px', height: '70px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <div className="icon" style={{ 
+                      background: '#ffffff', 
+                      aspectRatio: '1/1',
+                      width: '70px',
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center',
+                      borderRadius: '50%'
+                    }}>
                       <i className="fa-light fa-location-dot" style={{ color: '#E84E4E', fontSize: '28px' }} />
                     </div>
                     <div className="content">

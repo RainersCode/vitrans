@@ -4,6 +4,13 @@ import Link from "next/link"
 export default function About2() {
 	return (
 		<>
+			<style jsx global>{`
+				@media (max-width: 768px) {
+					.hide-on-mobile {
+						display: none !important;
+					}
+				}
+			`}</style>
 			<section className="about-section fix section-padding" id="about">
 				<div className="about-shape-4 float-bob-x">
 					<img src="assets/img/about/about-shape-4.png" alt="img" />
@@ -23,7 +30,7 @@ export default function About2() {
 										data-wow-delay=".3s"
 									/>
 									<div
-										className="about-image-2 wow fadeInUp"
+										className="about-image-2 wow fadeInUp hide-on-mobile"
 										data-wow-delay=".2s"
 									>
 										<img 
@@ -46,7 +53,7 @@ export default function About2() {
 											<i className="fa-regular fa-arrow-right-long" />
 										</h6>
 										<h2 className="wow fadeInUp" data-wow-delay=".1s">
-											Neatkarīgs pārvadātājs, <br /> Gatis Lovkins
+											Gatis Lovkins — <br />Jūsu uzticamais kravu pārvadājumu partneris
 										</h2>
 									</div>
 									<p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".2s">
