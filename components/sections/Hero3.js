@@ -1,5 +1,6 @@
 "use client"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Hero3() {
 	return (
@@ -22,28 +23,51 @@ export default function Hero3() {
 						text-align: center !important;
 					}
 				}
+				.hero-section .slider-image {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					z-index: -1;
+				}
+				.hero-section .slider-image::after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					background: rgba(0, 0, 0, 0.5);
+				}
 			`}</style>
 			<section className="hero-section fix hero-2">
-							<div
-								className="slider-image bg-cover"
-					style={{ backgroundImage: 'url("/assets/img/hero/hero-image.jpg")' }}
-							></div>
+							<div className="slider-image">
+								<Image
+									src="/assets/img/hero/hero-image.jpg"
+									alt="Hero Background"
+									fill
+									priority
+									quality={90}
+									style={{ objectFit: 'cover' }}
+								/>
+							</div>
 							<div className="container">
 								<div className="row g-4">
 									<div className="col-lg-8">
 										<div className="hero-content text-start">
 											<h5
 												data-animation="slideInRight"
-												data-duration="2s"
-												data-delay=".3s"
+												data-duration="1s"
+												data-delay=".1s"
 												style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}
 											>
 									Kravu pārvadājumi ar manipulatoru
 											</h5>
 											<h1
 												data-animation="slideInRight"
-												data-duration="2s"
-												data-delay=".5s"
+												data-duration="1s"
+												data-delay=".2s"
 												style={{ textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)' }}
 											>
 									Profesionāli Kravu <br />
@@ -51,8 +75,8 @@ export default function Hero3() {
 											</h1>
 											<div
 												data-animation="slideInRight"
-												data-duration="2s"
-												data-delay=".9s"
+												data-duration="1s"
+												data-delay=".3s"
 												style={{ 
 													textShadow: '1px 1px 2px rgba(0, 0, 0, 0.2)',
 													marginTop: '20px',
