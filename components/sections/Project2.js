@@ -68,9 +68,9 @@ export default function Project2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
 									<img 
-										src="/assets/img/service/offer/manipulatora_pakalpojumi.jpg" 
+										src="/assets/img/manipulatora_pakalpojumi.webp" 
 										alt="Manipulatora pakalpojumi" 
-										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+										style={{ width: '1200px', height: '500px', objectFit: 'cover', objectPosition: '100% 50%' }}
 									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
@@ -86,9 +86,9 @@ export default function Project2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
 									<img 
-										src="/assets/img/service/offer/celtniecibasmaterialu_piegade.jpg" 
+										src="/assets/img/celtniecibasmaterialu_piegade.webp" 
 										alt="Celtniecības materiālu piegāde" 
-										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+										style={{ width: '1200px', height: '500px', objectFit: 'cover', objectPosition: '100% 50%' }}
 									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
@@ -104,9 +104,9 @@ export default function Project2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
 									<img 
-										src="/assets/img/service/offer/kokmaterialu_piegade.jpg" 
+										src="/assets/img/kokmaterialu_piegade.webp" 
 										alt="Kokmateriālu piegāde" 
-										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+										style={{ width: '1200px', height: '500px', objectFit: 'cover', objectPosition: '100% 50%' }}
 									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>
@@ -122,9 +122,9 @@ export default function Project2() {
 							<SwiperSlide className="swiper-slide">
 								<div className="project-thumb">
 									<img 
-										src="/assets/img/service/offer/iekartu_parvesana.jpg" 
+										src="/assets/img/iekartu_parvesana.webp" 
 										alt="Iekārtu pārvešana" 
-										style={{ width: '1200px', height: '500px', objectFit: 'cover' }}
+										style={{ width: '1200px', height: '500px', objectFit: 'cover', objectPosition: '100% 50%' }}
 									/>
 									<div className="project-content">
 										<div className="content" style={{ color: '#fff' }}>

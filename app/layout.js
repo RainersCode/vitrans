@@ -8,6 +8,7 @@ import "@/public/assets/css/nice-select.css"
 import "@/public/assets/css/color.css"
 import "@/public/assets/css/main.css"
 import "@/public/assets/css/whatsapp-button.css"
+import "@/public/assets/css/animation-override.css"
 
 import { Nunito } from "next/font/google";
 

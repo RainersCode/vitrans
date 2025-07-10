@@ -1,0 +1,25 @@
+/* Override default animation durations and delays */
+.wow {
+    animation-duration: 0.5s !important; /* Default was 1s */
+}
+
+/* Override specific delays */
+[data-wow-delay] {
+    animation-delay: 0.1s !important; /* Override all delays to be very short */
+}
+
+/* Specific delay overrides if needed */
+[data-wow-delay=".2s"],
+[data-wow-delay=".3s"],
+[data-wow-delay=".4s"],
+[data-wow-delay=".5s"],
+[data-wow-delay=".6s"],
+[data-wow-delay=".7s"],
+[data-wow-delay=".8s"] {
+    animation-delay: 0.1s !important;
+}
+
+/* Make sure fadeInUp animation is faster */
+.fadeInUp {
+    animation-duration: 0.4s !important;
+} 
